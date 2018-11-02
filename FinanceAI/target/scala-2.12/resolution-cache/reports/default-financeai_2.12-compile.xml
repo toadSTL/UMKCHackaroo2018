@@ -7,46 +7,58 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181102145330"/>
+		date="20181102172524"/>
 	<dependencies>
+		<module organisation="org.apache.opennlp" name="opennlp-tools">
+			<revision name="1.9.0" status="release" pubdate="20180629063226" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6978" time="0" location="C:\Users\Gregory\.ivy2\cache\org.apache.opennlp\opennlp-tools\ivy-1.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.9.0/opennlp-tools-1.9.0.pom"/>
+				<caller organisation="default" name="financeai_2.12" conf="compile" rev="1.9.0" rev-constraint-default="1.9.0" rev-constraint-dynamic="1.9.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="opennlp-tools" type="bundle" ext="jar" status="no" details="" size="1245779" time="0" location="C:\Users\Gregory\.ivy2\cache\org.apache.opennlp\opennlp-tools\bundles\opennlp-tools-1.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.9.0/opennlp-tools-1.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.opencsv" name="opencsv">
-			<revision name="4.3.2" status="release" pubdate="20181014131815" resolver="public" artresolver="public" homepage="http://opencsv.sf.net" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+			<revision name="4.3.2" status="release" pubdate="20181014131815" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="20296" time="72" location="C:\Users\Gregory\.ivy2\cache\com.opencsv\opencsv\ivy-4.3.2.xml" searched="true" original-local-location="C:\Users\Gregory\.ivy2\cache\com.opencsv\opencsv\ivy-4.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/opencsv/opencsv/4.3.2/opencsv-4.3.2.pom"/>
+				<metadata-artifact status="no" details="" size="5004" time="0" location="C:\Users\Gregory\.ivy2\cache\com.opencsv\opencsv\ivy-4.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/opencsv/opencsv/4.3.2/opencsv-4.3.2.pom"/>
 				<caller organisation="default" name="financeai_2.12" conf="compile" rev="4.3.2" rev-constraint-default="4.3.2" rev-constraint-dynamic="4.3.2" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="opencsv" type="jar" ext="jar" status="successful" details="" size="165166" time="1415" location="C:\Users\Gregory\.ivy2\cache\com.opencsv\opencsv\jars\opencsv-4.3.2.jar">
+					<artifact name="opencsv" type="jar" ext="jar" status="no" details="" size="165166" time="0" location="C:\Users\Gregory\.ivy2\cache\com.opencsv\opencsv\jars\opencsv-4.3.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/opencsv/opencsv/4.3.2/opencsv-4.3.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-collections4">
-			<revision name="4.2" status="release" pubdate="20180708082814" resolver="public" artresolver="public" homepage="http://commons.apache.org/proper/commons-collections/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+			<revision name="4.2" status="release" pubdate="20180708082814" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="23149" time="97" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-collections4\ivy-4.2.xml" searched="true" original-local-location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-collections4\ivy-4.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.pom"/>
+				<metadata-artifact status="no" details="" size="14727" time="0" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-collections4\ivy-4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.pom"/>
 				<caller organisation="com.opencsv" name="opencsv" conf="default, compile, runtime, master" rev="4.2" rev-constraint-default="4.2" rev-constraint-dynamic="4.2" callerrev="4.3.2"/>
 				<artifacts>
-					<artifact name="commons-collections4" type="jar" ext="jar" status="successful" details="" size="752798" time="1873" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-collections4\jars\commons-collections4-4.2.jar">
+					<artifact name="commons-collections4" type="jar" ext="jar" status="no" details="" size="752798" time="0" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-collections4\jars\commons-collections4-4.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="commons-beanutils" name="commons-beanutils">
-			<revision name="1.9.3" status="release" pubdate="20160921112132" resolver="public" artresolver="public" homepage="https://commons.apache.org/proper/commons-beanutils/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+			<revision name="1.9.3" status="release" pubdate="20160921112132" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://commons.apache.org/proper/commons-beanutils/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="14622" time="103" location="C:\Users\Gregory\.ivy2\cache\commons-beanutils\commons-beanutils\ivy-1.9.3.xml" searched="true" original-local-location="C:\Users\Gregory\.ivy2\cache\commons-beanutils\commons-beanutils\ivy-1.9.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.pom"/>
+				<metadata-artifact status="no" details="" size="12247" time="0" location="C:\Users\Gregory\.ivy2\cache\commons-beanutils\commons-beanutils\ivy-1.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.pom"/>
 				<caller organisation="com.opencsv" name="opencsv" conf="default, compile, runtime, master" rev="1.9.3" rev-constraint-default="1.9.3" rev-constraint-dynamic="1.9.3" callerrev="4.3.2"/>
 				<artifacts>
-					<artifact name="commons-beanutils" type="jar" ext="jar" status="successful" details="" size="246174" time="567" location="C:\Users\Gregory\.ivy2\cache\commons-beanutils\commons-beanutils\jars\commons-beanutils-1.9.3.jar">
+					<artifact name="commons-beanutils" type="jar" ext="jar" status="no" details="" size="246174" time="0" location="C:\Users\Gregory\.ivy2\cache\commons-beanutils\commons-beanutils\jars\commons-beanutils-1.9.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="commons-collections" name="commons-collections">
-			<revision name="3.2.2" status="release" pubdate="20151112171126" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+			<revision name="3.2.2" status="release" pubdate="20151112171126" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="11218" time="0" location="C:\Users\Gregory\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom"/>
 				<caller organisation="commons-beanutils" name="commons-beanutils" conf="compile, runtime" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.9.3"/>
@@ -58,7 +70,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-logging" name="commons-logging">
-			<revision name="1.2" status="release" pubdate="20140705131228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+			<revision name="1.2" status="release" pubdate="20140705131228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="11725" time="0" location="C:\Users\Gregory\.ivy2\cache\commons-logging\commons-logging\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
 				<caller organisation="commons-beanutils" name="commons-beanutils" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.9.3"/>
@@ -70,33 +82,33 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-text">
-			<revision name="1.3" status="release" pubdate="20180316102621" resolver="public" artresolver="public" homepage="http://commons.apache.org/proper/commons-text/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+			<revision name="1.3" status="release" pubdate="20180316102621" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-text/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="14261" time="102" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-text\ivy-1.3.xml" searched="true" original-local-location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-text\ivy-1.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.3/commons-text-1.3.pom"/>
+				<metadata-artifact status="no" details="" size="13714" time="0" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-text\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.3/commons-text-1.3.pom"/>
 				<caller organisation="com.opencsv" name="opencsv" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.3.2"/>
 				<artifacts>
-					<artifact name="commons-text" type="jar" ext="jar" status="successful" details="" size="182954" time="1484" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-text\jars\commons-text-1.3.jar">
+					<artifact name="commons-text" type="jar" ext="jar" status="no" details="" size="182954" time="0" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-text\jars\commons-text-1.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.3/commons-text-1.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-lang3">
-			<revision name="3.8.1" status="release" pubdate="20180919102429" resolver="public" artresolver="public" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+			<revision name="3.8.1" status="release" pubdate="20180919102429" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="27888" time="103" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.8.1.xml" searched="true" original-local-location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.8.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom"/>
+				<metadata-artifact status="no" details="" size="15052" time="0" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom"/>
 				<caller organisation="org.apache.commons" name="commons-text" conf="compile, runtime" rev="3.7" rev-constraint-default="3.7" rev-constraint-dynamic="3.7" callerrev="1.3"/>
 				<caller organisation="edu.stanford.nlp" name="stanford-corenlp" conf="default, compile, runtime, master" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="3.9.2"/>
 				<caller organisation="com.opencsv" name="opencsv" conf="default, compile, runtime, master" rev="3.8.1" rev-constraint-default="3.8.1" rev-constraint-dynamic="3.8.1" callerrev="4.3.2"/>
 				<artifacts>
-					<artifact name="commons-lang3" type="jar" ext="jar" status="successful" details="" size="501879" time="1737" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.8.1.jar">
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="501879" time="0" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.8.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="3.3.1" status="release" pubdate="20140315080434" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="3.3.1" status="release" pubdate="20140315080434" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="20397" time="100" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.3.1.xml" searched="true" original-local-location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.pom"/>
+				<metadata-artifact status="no" details="" size="10769" time="0" location="C:\Users\Gregory\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.pom"/>
 				<evicted-by rev="3.8.1"/>
 				<caller organisation="edu.stanford.nlp" name="stanford-corenlp" conf="default, compile, runtime, master" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="3.9.2"/>
 				<artifacts>
@@ -109,51 +121,66 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="edu.stanford.nlp" name="stanford-corenlp">
-			<revision name="3.9.2" status="release" pubdate="20181010192548" resolver="public" artresolver="public" homepage="https://nlp.stanford.edu/software/corenlp.html" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
-				<license name="GNU General Public License Version 3" url="http://www.gnu.org/licenses/gpl-3.0.txt"/>
-				<metadata-artifact status="successful" details="" size="6135" time="127" location="C:\Users\Gregory\.ivy2\cache\edu.stanford.nlp\stanford-corenlp\ivy-3.9.2.xml" searched="true" original-local-location="C:\Users\Gregory\.ivy2\cache\edu.stanford.nlp\stanford-corenlp\ivy-3.9.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.9.2/stanford-corenlp-3.9.2.pom"/>
+		<module organisation="edu.stanford.nlp" name="stanford-parser">
+			<revision name="3.9.2" status="release" pubdate="20181017215037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://nlp.stanford.edu/software/lex-parser.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="GNU General Public License Version 2" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3307" time="0" location="C:\Users\Gregory\.ivy2\cache\edu.stanford.nlp\stanford-parser\ivy-3.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-parser/3.9.2/stanford-parser-3.9.2.pom"/>
 				<caller organisation="default" name="financeai_2.12" conf="compile" rev="3.9.2" rev-constraint-default="3.9.2" rev-constraint-dynamic="3.9.2" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="stanford-corenlp" type="jar" ext="jar" status="successful" details="" size="8146873" time="4957" location="C:\Users\Gregory\.ivy2\cache\edu.stanford.nlp\stanford-corenlp\jars\stanford-corenlp-3.9.2.jar">
+					<artifact name="stanford-parser" type="jar" ext="jar" status="no" details="" size="4425099" time="0" location="C:\Users\Gregory\.ivy2\cache\edu.stanford.nlp\stanford-parser\jars\stanford-parser-3.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-parser/3.9.2/stanford-parser-3.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="edu.stanford.nlp" name="stanford-corenlp">
+			<revision name="3.9.2" status="release" pubdate="20181010192548" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://nlp.stanford.edu/software/corenlp.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="GNU General Public License Version 3" url="http://www.gnu.org/licenses/gpl-3.0.txt"/>
+				<metadata-artifact status="no" details="" size="6441" time="0" location="C:\Users\Gregory\.ivy2\cache\edu.stanford.nlp\stanford-corenlp\ivy-3.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.9.2/stanford-corenlp-3.9.2.pom"/>
+				<caller organisation="default" name="financeai_2.12" conf="compile" rev="3.9.2" rev-constraint-default="3.9.2" rev-constraint-dynamic="3.9.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="stanford-corenlp" type="jar" ext="jar" status="no" details="" size="8146873" time="0" location="C:\Users\Gregory\.ivy2\cache\edu.stanford.nlp\stanford-corenlp\jars\stanford-corenlp-3.9.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.9.2/stanford-corenlp-3.9.2.jar"/>
+					</artifact>
+					<artifact name="stanford-corenlp" type="jar" ext="jar" extra-classifier="models" status="no" details="" size="362565193" time="0" location="C:\Users\Gregory\.ivy2\cache\edu.stanford.nlp\stanford-corenlp\jars\stanford-corenlp-3.9.2-models.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.9.2/stanford-corenlp-3.9.2-models.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.sun.xml.bind" name="jaxb-impl">
-			<revision name="2.4.0-b180830.0438" status="release" pubdate="20180830064417" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+			<revision name="2.4.0-b180830.0438" status="release" pubdate="20180830064417" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="15500" time="71" location="C:\Users\Gregory\.ivy2\cache\com.sun.xml.bind\jaxb-impl\ivy-2.4.0-b180830.0438.xml" searched="true" original-local-location="C:\Users\Gregory\.ivy2\cache\com.sun.xml.bind\jaxb-impl\ivy-2.4.0-b180830.0438.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.4.0-b180830.0438/jaxb-impl-2.4.0-b180830.0438.pom"/>
+				<metadata-artifact status="no" details="" size="11544" time="0" location="C:\Users\Gregory\.ivy2\cache\com.sun.xml.bind\jaxb-impl\ivy-2.4.0-b180830.0438.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.4.0-b180830.0438/jaxb-impl-2.4.0-b180830.0438.pom"/>
 				<caller organisation="edu.stanford.nlp" name="stanford-corenlp" conf="default, compile, runtime, master" rev="2.4.0-b180830.0438" rev-constraint-default="2.4.0-b180830.0438" rev-constraint-dynamic="2.4.0-b180830.0438" callerrev="3.9.2"/>
 				<artifacts>
-					<artifact name="jaxb-impl" type="jar" ext="jar" status="successful" details="" size="1099271" time="2178" location="C:\Users\Gregory\.ivy2\cache\com.sun.xml.bind\jaxb-impl\jars\jaxb-impl-2.4.0-b180830.0438.jar">
+					<artifact name="jaxb-impl" type="jar" ext="jar" status="no" details="" size="1099271" time="0" location="C:\Users\Gregory\.ivy2\cache\com.sun.xml.bind\jaxb-impl\jars\jaxb-impl-2.4.0-b180830.0438.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.4.0-b180830.0438/jaxb-impl-2.4.0-b180830.0438.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.sun.xml.bind" name="jaxb-core">
-			<revision name="2.3.0.1" status="release" pubdate="20180518064425" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+			<revision name="2.3.0.1" status="release" pubdate="20180518064425" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="16171" time="77" location="C:\Users\Gregory\.ivy2\cache\com.sun.xml.bind\jaxb-core\ivy-2.3.0.1.xml" searched="true" original-local-location="C:\Users\Gregory\.ivy2\cache\com.sun.xml.bind\jaxb-core\ivy-2.3.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="11226" time="0" location="C:\Users\Gregory\.ivy2\cache\com.sun.xml.bind\jaxb-core\ivy-2.3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.pom"/>
 				<caller organisation="edu.stanford.nlp" name="stanford-corenlp" conf="default, compile, runtime, master" rev="2.3.0.1" rev-constraint-default="2.3.0.1" rev-constraint-dynamic="2.3.0.1" callerrev="3.9.2"/>
 				<artifacts>
-					<artifact name="jaxb-core" type="jar" ext="jar" status="successful" details="" size="254858" time="1659" location="C:\Users\Gregory\.ivy2\cache\com.sun.xml.bind\jaxb-core\jars\jaxb-core-2.3.0.1.jar">
+					<artifact name="jaxb-core" type="jar" ext="jar" status="no" details="" size="254858" time="0" location="C:\Users\Gregory\.ivy2\cache\com.sun.xml.bind\jaxb-core\jars\jaxb-core-2.3.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="javax.xml.bind" name="jaxb-api">
-			<revision name="2.4.0-b180830.0359" status="release" pubdate="20180830060020" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+			<revision name="2.4.0-b180830.0359" status="release" pubdate="20180830060020" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
 				<license name="CDDL 1.1" url="https://oss.oracle.com/licenses/CDDL+GPL-1.1"/>
 				<license name="GPL2 w/ CPE" url="https://oss.oracle.com/licenses/CDDL+GPL-1.1"/>
-				<metadata-artifact status="successful" details="" size="19709" time="293" location="C:\Users\Gregory\.ivy2\cache\javax.xml.bind\jaxb-api\ivy-2.4.0-b180830.0359.xml" searched="true" original-local-location="C:\Users\Gregory\.ivy2\cache\javax.xml.bind\jaxb-api\ivy-2.4.0-b180830.0359.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.4.0-b180830.0359/jaxb-api-2.4.0-b180830.0359.pom"/>
+				<metadata-artifact status="no" details="" size="4268" time="0" location="C:\Users\Gregory\.ivy2\cache\javax.xml.bind\jaxb-api\ivy-2.4.0-b180830.0359.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.4.0-b180830.0359/jaxb-api-2.4.0-b180830.0359.pom"/>
 				<caller organisation="edu.stanford.nlp" name="stanford-corenlp" conf="default, compile, runtime, master" rev="2.4.0-b180830.0359" rev-constraint-default="2.4.0-b180830.0359" rev-constraint-dynamic="2.4.0-b180830.0359" callerrev="3.9.2"/>
 				<caller organisation="de.jollyday" name="jollyday" conf="compile, runtime" rev="2.2.7" rev-constraint-default="2.2.7" rev-constraint-dynamic="2.2.7" callerrev="0.4.9"/>
 				<artifacts>
-					<artifact name="jaxb-api" type="jar" ext="jar" status="successful" details="" size="128032" time="1026" location="C:\Users\Gregory\.ivy2\cache\javax.xml.bind\jaxb-api\jars\jaxb-api-2.4.0-b180830.0359.jar">
+					<artifact name="jaxb-api" type="jar" ext="jar" status="no" details="" size="128032" time="0" location="C:\Users\Gregory\.ivy2\cache\javax.xml.bind\jaxb-api\jars\jaxb-api-2.4.0-b180830.0359.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.4.0-b180830.0359/jaxb-api-2.4.0-b180830.0359.jar"/>
 					</artifact>
 				</artifacts>
@@ -166,13 +193,13 @@
 			</revision>
 		</module>
 		<module organisation="javax.activation" name="javax.activation-api">
-			<revision name="1.2.0" status="release" pubdate="20170906181319" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+			<revision name="1.2.0" status="release" pubdate="20170906181319" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
 				<license name="CDDL/GPLv2+CE" url="https://github.com/javaee/activation/blob/master/LICENSE.txt"/>
-				<metadata-artifact status="successful" details="" size="4919" time="73" location="C:\Users\Gregory\.ivy2\cache\javax.activation\javax.activation-api\ivy-1.2.0.xml" searched="true" original-local-location="C:\Users\Gregory\.ivy2\cache\javax.activation\javax.activation-api\ivy-1.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom"/>
+				<metadata-artifact status="no" details="" size="5303" time="0" location="C:\Users\Gregory\.ivy2\cache\javax.activation\javax.activation-api\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom"/>
 				<caller organisation="javax.xml.bind" name="jaxb-api" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="2.4.0-b180830.0359"/>
 				<caller organisation="edu.stanford.nlp" name="stanford-corenlp" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="3.9.2"/>
 				<artifacts>
-					<artifact name="javax.activation-api" type="jar" ext="jar" status="successful" details="" size="56674" time="1024" location="C:\Users\Gregory\.ivy2\cache\javax.activation\javax.activation-api\jars\javax.activation-api-1.2.0.jar">
+					<artifact name="javax.activation-api" type="jar" ext="jar" status="no" details="" size="56674" time="0" location="C:\Users\Gregory\.ivy2\cache\javax.activation\javax.activation-api\jars\javax.activation-api-1.2.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -193,6 +220,7 @@
 			<revision name="1.7.12" status="release" pubdate="20150326155005" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
 				<metadata-artifact status="no" details="" size="4881" time="0" location="C:\Users\Gregory\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
 				<caller organisation="edu.stanford.nlp" name="stanford-corenlp" conf="default, compile, runtime, master" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="3.9.2"/>
+				<caller organisation="edu.stanford.nlp" name="stanford-parser" conf="default, compile, runtime, master" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="3.9.2"/>
 				<artifacts>
 					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="32127" time="0" location="C:\Users\Gregory\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"/>
@@ -217,6 +245,7 @@
 				<license name="LGPL" url="http://www.gnu.org/copyleft/lesser.html"/>
 				<metadata-artifact status="no" details="" size="3216" time="0" location="C:\Users\Gregory\.ivy2\cache\com.googlecode.efficient-java-matrix-library\ejml\ivy-0.23.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.pom"/>
 				<caller organisation="edu.stanford.nlp" name="stanford-corenlp" conf="default, compile, runtime, master" rev="0.23" rev-constraint-default="0.23" rev-constraint-dynamic="0.23" callerrev="3.9.2"/>
+				<caller organisation="edu.stanford.nlp" name="stanford-parser" conf="default, compile, runtime, master" rev="0.23" rev-constraint-default="0.23" rev-constraint-dynamic="0.23" callerrev="3.9.2"/>
 				<artifacts>
 					<artifact name="ejml" type="jar" ext="jar" status="no" details="" size="301506" time="0" location="C:\Users\Gregory\.ivy2\cache\com.googlecode.efficient-java-matrix-library\ejml\jars\ejml-0.23.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.jar"/>
@@ -405,6 +434,20 @@
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5277511" time="0" location="C:\Users\Gregory\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.7.jar">
 						<origin-location is-local="false" location="UNKNOWN"/>
 					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-mllib_2.12">
+			<revision name="2.3.1" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="default" name="financeai_2.12" conf="compile" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-streaming_2.12">
+			<revision name="2.3.1" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="default" name="financeai_2.12" conf="compile" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="0.1"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
