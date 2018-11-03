@@ -10,10 +10,16 @@ import java.util.Properties;
 
 public class SentimentCoreNLP {
 
-    public static int getSentiment(String line){
-        Properties props = new Properties();
+    static Properties props = new Properties();
+    static StanfordCoreNLP pipeline;
+    public static void setup(){
         props.setProperty("annotators", "tokenize, ssplit, parse, sentiment");
-        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+        pipeline = new StanfordCoreNLP(props);
+    }
+
+
+    public static int getSentiment(String line){
+
         int mainSentiment = 0;
         if (line != null && line.length() > 0) {
             int longest = 0;

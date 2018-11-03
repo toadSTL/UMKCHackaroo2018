@@ -3,36 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5cd8379a-6412-4bde-8a19-56d4afbab832" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c55730e847579a9bc1fe$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c55730e847579a9bc1fe.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c55730e847579a9bc1fe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CSVReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/day/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/data/outdated/mini-run/day/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/day/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/data/outdated/mini-run/day/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/day/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/data/outdated/mini-run/day/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/day/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/data/outdated/mini-run/day/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/data/outdated/mini-run/out/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/data/outdated/mini-run/out/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/data/outdated/mini-run/out/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/data/outdated/mini-run/out/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SentimentCoreNLP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SentimentCoreNLP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/SentimentAnalyzer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SentimentAnalyzer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CSVReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SentimentAnalyzer$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SentimentAnalyzer$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SentimentAnalyzer$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SentimentAnalyzer$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SentimentAnalyzer$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SentimentAnalyzer$$anonfun$main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SentimentAnalyzer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SentimentAnalyzer$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/financeai$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/financeai$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/financeai$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/financeai$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-financeai$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,7 +64,7 @@
           <entry key="class" value="1" />
           <entry key="csv" value="2" />
           <entry key="java" value="5" />
-          <entry key="part-00000" value="4" />
+          <entry key="part-00000" value="5" />
           <entry key="sbt" value="1" />
           <entry key="scala" value="2" />
           <entry key="txt" value="2" />
@@ -93,22 +74,24 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="5" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="Scala" value="2" />
           <entry key="sbt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1224" />
+          <entry key="java" value="1372" />
           <entry key="sbt" value="31" />
-          <entry key="scala" value="1736" />
+          <entry key="scala" value="1798" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1224" />
-          <entry key="Scala" value="1736" />
+          <entry key="JAVA" value="1372" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Scala" value="1798" />
           <entry key="sbt" value="31" />
         </counts>
       </usages-collector>
@@ -132,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/readerCSV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
+            <state relative-caret-position="1071">
               <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -164,13 +147,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalyzer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+            <state relative-caret-position="323">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/outdated/mini-run/out/part-00000">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -185,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SentimentCoreNLP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+            <state relative-caret-position="119">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,8 +195,8 @@
     <findStrings>
       <find>***</find>
       <find>|</find>
-      <find>print</find>
       <find>Date</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,13 +206,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/SentimentCoreNLP.java" />
         <option value="$PROJECT_DIR$/src/main/java/StartSentiment.java" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/java/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/CSVReader.java" />
         <option value="$PROJECT_DIR$/data/test.csv" />
         <option value="$PROJECT_DIR$/src/main/java/readerCSV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SentimentCoreNLP.java" />
         <option value="$PROJECT_DIR$/src/main/scala/SentimentAnalyzer.scala" />
       </list>
     </option>
@@ -236,8 +224,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1934" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -259,6 +247,12 @@
               <item name="FinanceAI" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinanceAI" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinanceAI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinanceAI" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="outdated" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FinanceAI" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +295,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541256768446" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541266711379" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CS5560GregBrownICPSubmission/ICP5/Spark_TFIDF_W2V/Spark_TFIDF_W2V" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -311,6 +305,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Gregory\Documents\GitHub\UMKCHackaroo2018\FinanceAI\data\outdated\mini-run" />
       <recent name="D:\Users\Gregory\Documents\GitHub\UMKCHackaroo2018\FinanceAI\data\outdated" />
       <recent name="D:\Users\Gregory\Documents\GitHub\UMKCHackaroo2018\FinanceAI\src\main\java" />
       <recent name="D:\Users\Gregory\Documents\GitHub\UMKCHackaroo2018\FinanceAI\src\test" />
@@ -406,12 +401,20 @@
       <workItem from="1541188034804" duration="2132000" />
       <workItem from="1541190260156" duration="876000" />
       <workItem from="1541192233063" duration="6864000" />
-      <workItem from="1541201479826" duration="11808000" />
+      <workItem from="1541201479826" duration="13977000" />
     </task>
+    <task id="LOCAL-00001" summary="update with issues">
+      <created>1541256932127</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541256932127</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21680000" />
+    <option name="totallyTimeSpent" value="23849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -458,6 +461,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update with issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="update with issues" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.9.2.jar!/edu/stanford/nlp/sentiment/SentimentCoreAnnotations.class">
@@ -507,32 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/readerCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#643#659#0" expanded="true" />
-            <element signature="e#1646#1654#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/StartSentiment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
           <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SentimentCoreNLP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -546,10 +531,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/outdated/mini-run/out/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/readerCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#659#0" expanded="true" />
+            <element signature="e#1646#1654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SentimentCoreNLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalyzer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+        <state relative-caret-position="323">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>

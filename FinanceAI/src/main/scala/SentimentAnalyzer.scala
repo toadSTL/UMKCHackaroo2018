@@ -20,6 +20,10 @@ object SentimentAnalyzer {
 
     val sc = new SparkContext(sparkConf)
 
+    val coreNLP = SentimentCoreNLP
+
+    coreNLP.setup()
+
     //val keyVal = readerCSV.readDataLineByLine("data/RedditNews.csv")
 
     //val textRDD = sc.textFile("data/RedditNews.csv")
@@ -43,13 +47,13 @@ object SentimentAnalyzer {
 
     // val csvReader = new CSVReader(filereader);
 
-    val lineList = readerCSV.getArrFromDataByline("data/mini.csv")
+    val lineList = readerCSV.getArrFromDataByline("data/RedditNews.csv")
 
     val rdd = sc.parallelize(lineList.toArray.map(x => x.toString())).map(line => {
       val arr = line.split("\\^")
       //if the first char of arr(1) is a 'b' we should remove it
       //also should remove new line chars
-      (arr(0),arr(1),SentimentCoreNLP.getSentiment(arr(1)))
+      (arr(0),arr(1),coreNLP.getSentiment(arr(1)))
     })
 
     val dayVal = rdd.map(x=>(x._1,x._3)).reduceByKey(_+_)
