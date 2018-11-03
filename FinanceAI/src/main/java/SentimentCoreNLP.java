@@ -13,12 +13,14 @@ public class SentimentCoreNLP {
     static Properties props = new Properties();
     static StanfordCoreNLP pipeline;
     public static void setup(){
-        props.setProperty("annotators", "tokenize, ssplit, parse, sentiment");
-        pipeline = new StanfordCoreNLP(props);
+
     }
 
 
     public static int getSentiment(String line){
+        props.setProperty("annotators", "tokenize, ssplit, parse, sentiment");
+        Properties props = new Properties();
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);;
 
         int mainSentiment = 0;
         if (line != null && line.length() > 0) {
