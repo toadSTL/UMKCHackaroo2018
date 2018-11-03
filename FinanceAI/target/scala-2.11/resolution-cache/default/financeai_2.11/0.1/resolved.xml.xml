@@ -4,7 +4,7 @@
 		module="financeai_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20181102172709"
+		publication="20181103151348"
 	>
 		<description>
 		FinanceAI
@@ -42,5 +42,7 @@
 		<dependency org="org.apache.spark" name="spark-mllib_2.11" rev="2.3.1" conf="compile->default(compile)"/>
 		<dependency org="com.opencsv" name="opencsv" rev="4.3.2" conf="compile->default(compile)"/>
 		<dependency org="org.apache.opennlp" name="opennlp-tools" rev="1.9.0" conf="compile->default(compile)"/>
+		<dependency org="com.github.apanimesh061" name="vader-sentiment-analyzer" rev="1.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.lucene" name="lucene-core" rev="7.5.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

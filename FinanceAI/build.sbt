@@ -6,6 +6,7 @@ scalaVersion := "2.11.8"
 
 // https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp
 // https://mvnrepository.com/artifact/com.opencsv/opencsv
+// https://mvnrepository.com/artifact/com.github.apanimesh061/vader-sentiment-analyzer
 libraryDependencies ++= Seq(
   "edu.stanford.nlp" % "stanford-corenlp" % "3.9.2" classifier "models",
   "edu.stanford.nlp" % "stanford-corenlp" % "3.9.2",
@@ -14,5 +15,7 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-streaming" % "2.3.1",
   "org.apache.spark" %% "spark-mllib" % "2.3.1",
   "com.opencsv" % "opencsv" % "4.3.2",
-  "org.apache.opennlp" % "opennlp-tools" % "1.9.0"
+  "org.apache.opennlp" % "opennlp-tools" % "1.9.0",
+  "com.github.apanimesh061" % "vader-sentiment-analyzer" % "1.0",
+  "org.apache.lucene" % "lucene-core" % "7.5.0"
 )

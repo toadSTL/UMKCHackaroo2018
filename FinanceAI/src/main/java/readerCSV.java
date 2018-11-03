@@ -40,7 +40,7 @@ public class readerCSV {
     }
 
 
-    public static List<String> getArrFromDataByline(String file) {
+    public static List<String> getListFromDataByline(String file) {
 
         try {
             // Create an object of filereader class
