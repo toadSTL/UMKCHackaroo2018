@@ -10,34 +10,17 @@ import java.util.Properties;
 
 public class SentimentCoreNLP {
 
-    static Properties props = new Properties();
-    static StanfordCoreNLP pipeline;
-    public static void setup(){
-
-    }
-
-
     public static int getSentiment(String line){
-        props.setProperty("annotators", "tokenize, ssplit, parse, sentiment");
         Properties props = new Properties();
-        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);;
-
-        int mainSentiment = 0;
-        if (line != null && line.length() > 0) {
-            int longest = 0;
-            Annotation annotation = pipeline.process(line);
-            for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
-                Tree tree = sentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
-                int sentiment = RNNCoreAnnotations.getPredictedClass(tree);
-                String partText = sentence.toString();
-                if (partText.length() > longest) {
-                    mainSentiment = sentiment-2;
-                    longest = partText.length();
-                }
-
-            }
+        props.setProperty("annotators", "tokenize, ssplit, parse, sentiment");
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+        int runningSentiment = 0;
+        Annotation annotation = pipeline.process(line);
+        for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
+            Tree tree = sentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
+            runningSentiment += RNNCoreAnnotations.getPredictedClass(tree);
         }
-        return mainSentiment;
+        return runningSentiment;
     }
 /*
     public static void classifyNewText(String text){

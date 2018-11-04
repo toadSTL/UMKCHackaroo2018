@@ -1,69 +1,54 @@
-import java.io.{File, PrintWriter}
-import com.opencsv._
-import java.io.FileReader
-import java.util
+import java.util.Properties
 
+import edu.stanford.nlp.ling.CoreAnnotations
+import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations
+import edu.stanford.nlp.pipeline.StanfordCoreNLP
+import edu.stanford.nlp.sentiment.SentimentCoreAnnotations
 import org.apache.spark.{SparkConf, SparkContext}
-//import org.apache.spark.mllib.feature.{HashingTF, IDF}
+import scala.collection.JavaConversions._
 
-import collection.JavaConverters._
+
 
 object SentimentAnalyzer {
+  val props = new Properties
+  props.setProperty("annotators", "tokenize, ssplit, parse, sentiment")
+  val pipeline = new StanfordCoreNLP(props)
 
   def main(args: Array[String]): Unit = {
-    System.setProperty("hadoop.home.dir", "D:\\winutils")
+    System.setProperty("hadoop.home.dir", "C:\\winutils")
+
 
     val sparkConf = new SparkConf().setAppName("SparkWordCount").setMaster("local[*]")
 
-    //val sqlContext - new SQLContext(sc)
-    //import sqlContext.implicits._
-
     val sc = new SparkContext(sparkConf)
 
+    val inputf = sc.wholeTextFiles("data/redditTexts", 50)
+    val input = inputf.map(abs => {
+      abs._2
+    }).cache()
 
+    val sentimentAnalysis = input.flatMap(lines => {lines.split("[\r\n]+")}).map(line => {
+      val splitLine = line.split("\t")
+      val sentiment = getSentiment(splitLine(1))
+      (splitLine(0), sentiment)
+    }).reduceByKey(_+_).sortByKey(true)
 
-    //val keyVal = readerCSV.readDataLineByLine("data/RedditNews.csv")
-
-    //val textRDD = sc.textFile("data/RedditNews.csv")
-
-    //val test = textRDD.map(line => {
-
-    //})
-
-    /*
-        val test = textRDD.map(line => {
-          var arr = line.split(",")
-          arr.foreach(println)
-         // println(" ")
-          arr
-        })
-
-        test.foreach(println);
-        */
-
-    //val filereader = new FileReader("data/RedditNews.csv")
-
-    // val csvReader = new CSVReader(filereader);
-
-    val lineList = readerCSV.getArrFromDataByline("data/RedditNews.csv")
-
-    val rdd = sc.parallelize(lineList.toArray.map(x => x.toString())).map(line => {
-      val arr = line.split("\\^")
-      //if the first char of arr(1) is a 'b' we should remove it
-      //also should remove new line chars
-      (arr(0),arr(1),SentimentCoreNLP.getSentiment(arr(1)))
-    })
-
-    val dayVal = rdd.map(x=>(x._1,x._3)).reduceByKey(_+_)
-
-    dayVal.coalesce(1).saveAsTextFile("data/day")
-
-    dayVal.foreach(println)
-
-    rdd.take(5).foreach(x =>{
-      println(x._1+"\t"+x._2+"\t"+x._3)
-    })
-
-    rdd.coalesce(1).saveAsTextFile("data/out")
+    sentimentAnalysis.saveAsTextFile("output/sentimentAnalysis")
   }
+
+  def getSentiment(line: String): Int = {
+    var mainSentiment = 0
+    var runningSentiment = 0
+    if (line != null && line.length > 0) {
+      val annotation = pipeline.process(line)
+      for (sentence <- annotation.get(classOf[CoreAnnotations.SentencesAnnotation])) {
+        val tree = sentence.get(classOf[SentimentCoreAnnotations.SentimentAnnotatedTree])
+        val sentiment = RNNCoreAnnotations.getPredictedClass(tree)
+        runningSentiment+=sentiment
+      }
+    }
+    return runningSentiment
+  }
+
+
 }

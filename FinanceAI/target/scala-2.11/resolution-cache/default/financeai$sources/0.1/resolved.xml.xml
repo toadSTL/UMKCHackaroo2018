@@ -4,7 +4,7 @@
 		module="financeai$sources"
 		revision="0.1"
 		status="integration"
-		publication="20181103022217"
+		publication="20181103124628"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
