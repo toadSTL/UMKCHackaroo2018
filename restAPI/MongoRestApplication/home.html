@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"  >
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type="application/javascript"></script>
+</head>
+<body>
+    <div ng-app="financeModule" ng-controller="financeCTRL">
+
+        <input type="date" id="myDate" ng-model="date" value="2018-11-04">
+        <!--
+        <button ng-click="myFunction()">click on it</button>
+
+        <p id="demo"></p>
+        -->
+
+        <button ng-click="getPrediction()">Get Prediction</button>
+
+        <div id="prediction"></div>
+
+    </div>
+    <script src="js/home.js"></script>
+</body>
+</html>
