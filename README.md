@@ -2,7 +2,7 @@
 
 ## Finance AI ##
 
-###NB:### Please do not consider this submission too thoroughly, I am merely submitting as a demonstration of my teams effort to produce an application which serves the use case.  Our results are negligible. 
+NB: Please do not consider this submission too thoroughly, I am merely submitting as a demonstration of my teams effort to produce an application which serves the use case.  Our results are negligible. 
 
 ### Authers ###
 
@@ -21,6 +21,9 @@ Run mongo.js from the restAPI subdirectory of the directory into which you clone
 Then open home.html in a browser and submit any date between 2008-08-08 and 2016-07-01 (YYYY-MM-DD).
 
 The page should show if we predict based on the news stories in the Reddit New top 25 stories for that day that the DJIA will go up or down.
+
+
+## Conclusions ##
 
 The results are 54.36% accurate (and are mostly "up", incidentally predicting that it will go "up" 100% of the time is 54.16% accurate over the same timespan)
 
