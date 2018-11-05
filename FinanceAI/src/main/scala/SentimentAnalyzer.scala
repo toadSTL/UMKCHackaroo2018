@@ -7,8 +7,6 @@ import edu.stanford.nlp.sentiment.SentimentCoreAnnotations
 import org.apache.spark.{SparkConf, SparkContext}
 import scala.collection.JavaConversions._
 
-
-
 object SentimentAnalyzer {
   val props = new Properties
   props.setProperty("annotators", "tokenize, ssplit, parse, sentiment")
@@ -17,9 +15,7 @@ object SentimentAnalyzer {
   def main(args: Array[String]): Unit = {
     System.setProperty("hadoop.home.dir", "C:\\winutils")
 
-
     val sparkConf = new SparkConf().setAppName("SparkWordCount").setMaster("local[*]")
-
     val sc = new SparkContext(sparkConf)
 
     val inputf = sc.wholeTextFiles("data/redditTexts", 50)
